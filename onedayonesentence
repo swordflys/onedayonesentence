@@ -1,0 +1,4 @@
+2022年10月18日
+学习了:
+1.git。git初始设置 git config --global user.name/user.email/color.ui
+2.github。创建SSH key，github中添加公开密钥，用私钥与github进行认证和通信。
