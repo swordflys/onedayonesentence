@@ -1,4 +1,4 @@
-2022年10月18日
+﻿2022年10月18日
 学习了:
 1.git。git初始设置 git config --global user.name/user.email/color.ui
 2.github。创建SSH key，github中添加公开密钥，用私钥与github进行认证和通信。
@@ -6,3 +6,22 @@
 (1)克隆仓库代码。git clone
 (2)添加文件至git仓库。仓库文件夹中添加文件，并将文件，git add加至暂存区，git commit提交至仓库
 (3)更新推送至github。git push
+
+2022年10月19日
+Git
+（一）概念
+1.文件状态
+(1)未跟踪。
+(2)已跟踪。一是未修改。二是已修改。三是已暂存。
+2.文件处理
+(1)跟踪新文件。git add
+(2)暂存已修改文件。git add
+(3)提交更新。git commit
+3.文件状态查询
+(1)
+(2)状态简览。git status -s
+(3)查看未暂存修改。git diff
+(4)
+
+
+
