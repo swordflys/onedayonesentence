@@ -18,10 +18,19 @@ Git
 (2)暂存已修改文件。git add
 (3)提交更新。git commit
 3.文件状态查询
-(1)
+(1)状态检查。git status
 (2)状态简览。git status -s
-(3)查看未暂存修改。git diff
-(4)
+(3)查看跟踪区未暂存的修改。git diff
+(4)查看暂存区未提交的更新。git diff --staged
+
+
+
+
+
+
+
+
+
 
 
 
