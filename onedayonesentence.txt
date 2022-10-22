@@ -24,11 +24,19 @@
 
 2022年10月20日
 一、Git
-（一）移除文件
-1.移除目录中文件。rm
-2.移除已暂存文件。git rm <filename>，会同时执行rm <filename>
+（一）查看文件
+1.查看工作目录文件。ls
+2.查看已暂存文件。git ls-files
+（二）移除文件
+1.移除目录中文件。rm <filename>
+2.移除已暂存且未提交的文件。
+暂存后未修改：git rm --cached/-f <filename>
+暂存后已修改（the file has local modifications）：git rm -f <filename>
 3.移除已提交文件。
+提交后未修改：git rm <filename>，会同时执行rm <filename>
+提交后已修改并暂存（the file has changes staged in the index）：git rm --cached/-f <filename>
 
+2022年10月22日
 二、bash
 （一）bashrc文件
 1.更改默认目录。echo "~/termux/onedayonesentence" >> ~/.bashrc。
