@@ -23,10 +23,17 @@
 4.查看已暂存但未提交的更新。git diff --staged
 
 2022年10月20日
-Git
-移除文件
+一、Git
+（一）移除文件
 1.移除目录中文件。rm
-2.移除
+2.移除已暂存文件。git rm <filename>，会同时执行rm <filename>
+3.移除已提交文件。
+
+二、bash
+（一）bashrc文件
+1.更改默认目录。echo "~/termux/onedayonesentence" >> ~/.bashrc。
+
+
 
 
 
