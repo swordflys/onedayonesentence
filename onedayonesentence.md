@@ -107,15 +107,15 @@ rm <filename>
 
 ### 2.移除已暂存且未提交的文件。
 
-**暂存后未修改：**git rm --cached/-f <filename>
+**暂存后未修改：** git rm --cached/-f <filename>
 
-**暂存后已修改***（the file has local modifications）：*git rm -f <filename>
+**暂存后已修改** *（the file has local modifications）：* git rm -f <filename>
 
 ### 3.移除已提交文件
 
-**(1)提交后未修改：**git rm <filename>，会同时执行rm <filename>
+**(1)提交后未修改：** git rm <filename>，会同时执行rm <filename>
 
-**(2)提交后已修改并暂存***（the file has changes staged in the index）：*git rm --cached/-f <filename>
+**(2)提交后已修改并暂存** *（the file has changes staged in the index）：* git rm --cached/-f <filename>
 
 
 
