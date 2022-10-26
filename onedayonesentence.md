@@ -1,8 +1,8 @@
 ﻿2022年10月18日
 
- # 一、Git
+# 一、Git
 
- ## （一）git初始设置
+## （一）git初始设置
 
 git config --global user.name
 
@@ -10,23 +10,29 @@ git config --global user.email
 
 git config --global color.ui
 
-（二）github。
+## （二）github
 
-1.创建SSH key。
+### 1.创建SSH key
 
-2.github中添加公开密钥。
+### 2.github中添加公开密钥
 
-3.用私钥与github进行认证和通信。
+### 3.用私钥与github进行认证和通信
 
-（三）公开代码
+## （三）公开代码
 
-1.克隆仓库代码。git clone
+## 1.克隆仓库代码
+
+git clone
 
 通过
 
-2.添加文件至git仓库。仓库文件夹中添加文件，并将文件，git add加至暂存区，git commit提交至仓库
+### 2.添加文件至git仓库
 
-3.更新推送至github。git push
+仓库文件夹中添加文件，并将文件，git add加至暂存区，git commit提交至仓库
+
+### 3.更新推送至github
+
+git push
 
 
 
