@@ -28,7 +28,8 @@ git clone
 
 ### 2.添加文件至git仓库
 
-仓库文件夹中添加文件，并将文件，git add加至暂存区，git commit提交至仓库
+仓库文件夹中添加文件，并将文件，git add加至暂
+存区，git commit提交至仓库
 
 ### 3.更新推送至github
 
@@ -45,7 +46,9 @@ git push
 ### 1.未跟踪
 
 ### 2.已跟踪
-**一是**未修改。**二是**已修改。**三是**已暂存。
+**一是**未修改。  
+**二是**已修改。  
+**三是**已暂存。
 
 ## （二）文件处理
 
@@ -105,7 +108,7 @@ git ls-files
 
 rm <filename>
 
-### 2.移除已暂存且未提交的文件。
+### 2.移除已暂存且未提交的文件
 
 **暂存后未修改：** git rm --cached/-f <filename>
 
@@ -138,8 +141,8 @@ echo "~/termux/onedayonesentence" >> ~/.bashrc。
 
 
 
-
-
+有事请百度[[百度一下]]
+[[百度一下]]:https://www.baidu.com
 
 
 
